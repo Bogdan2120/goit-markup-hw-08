@@ -1,0 +1,26 @@
+.logo-clients {
+    @extend %align-horizontel;
+    column-gap: 30px;
+}
+
+.logo-client__link {
+    @extend %align-center;
+    width: 170px;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    text-align: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: var(--svg-color);
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--text-color-hover);
+        fill: var(--text-color-hover);
+    }
+}

@@ -1,0 +1,23 @@
+.social-block__text {
+    margin-bottom: 20px;
+
+    @include font(700, 14px, 16px, 0.03em);
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.socials {
+    @extend %align-horizontel;
+    column-gap: 10px;
+}
+
+.socials__link {
+    @extend %align-center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,127 @@
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    @include font (700, 24px, 28px, 0.03em);
+    color: #000000;
+}
+
+.logo__text {
+    color: var(--color-logo-accent);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+        background: #000;
+    }
+
+    .header__address {
+        display: none;
+    }
+
+    .menu-btn-open {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        line-height: 0;
+    }
+}
+
+// .header__logo {
+//     margin-right: 93px;
+// }
+
+// .header__container {
+//     @extend %lign-vertical;
+// }
+
+// .nav {
+//     @extend %lign-vertical;
+// }
+
+
+
+// .menu {
+//     display: flex;
+//     column-gap: 50px;
+// }
+
+// .menu__item {
+//     position: relative;
+// }
+
+// .menu__link {
+//     display: inline-block;
+//     padding-top: 32px;
+//     padding-bottom: 32px;
+
+//     @include font(500, 14px, 16px, 0.02em);
+//     color: var(--text-color-accent);
+
+//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//     &:hover,
+//     &:focus {
+//         color: var(--text-color-hover);
+//     }
+// }
+
+// .menu__link_active::after {
+//     content: '';
+//     position: absolute;
+//     top: 100%;
+//     left: 0;
+//     transform: translate(0, -100%);
+
+//     width: 100%;
+//     height: 4px;
+
+//     background: var(--text-color-hover);
+//     border-radius: 2px;
+// }
+
+// _______header__address__________
+// .header__address {
+//     display: flex;
+//     column-gap: 50px;
+//     margin-left: auto;
+// }
+
+// .header__item {
+//     @extend %lign-vertical;
+// }
+
+
+
+// .header__link {
+//     @extend %lign-vertical;
+//     padding-top: 32px;
+//     padding-bottom: 32px;
+
+//     &:hover,
+//     &:focus {
+//         color: var(--text-color-hover);
+//     }
+// }
+
+// .header__icon {
+//     margin-right: 10px;
+
+//     fill: var(--text-color);
+
+//     .header__link:hover &,
+//     .header__link:focus & {
+//         fill: var(--text-color-hover);
+//     }
+// }
