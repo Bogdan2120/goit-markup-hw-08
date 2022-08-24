@@ -1,12 +1,17 @@
 .logo-clients {
     @extend %align-horizontel;
-    column-gap: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.logo-clients__item {
+    width: calc((100% - 30px) / 2);
+    height: 92px;
 }
 
 .logo-client__link {
     @extend %align-center;
-    width: 170px;
-    height: 92px;
+
     padding-top: 16px;
     padding-bottom: 16px;
 
@@ -22,5 +27,17 @@
     &:focus {
         border-color: var(--text-color-hover);
         fill: var(--text-color-hover);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo-clients__item {
+        width: calc((100% - 60px) / 3);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo-clients__item {
+        width: calc((100% - 150px) / 6);
     }
 }

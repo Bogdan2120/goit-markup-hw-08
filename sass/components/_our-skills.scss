@@ -1,15 +1,11 @@
 .skills {
-    display: flex;
-    column-gap: 30px;
-}
-
-.skills__item {
-    width: calc((100% - 90px) / 4);
+    // display: flex;
+    // column-gap: 30px;
 }
 
 .skills__icon-body {
     @extend %align-center;
-    width: 270px;
+    width: 100%;
     height: 120px;
     margin-bottom: 30px;
 
@@ -27,4 +23,28 @@
 
 .skills__text {
     @include font(400, 14px, 24px, 0.03em);
+}
+
+@media screen and (max-width: 767px) {
+    .skills__item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .skills__item {
+        width: calc((100% - 30px) / 2);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .skills__item {
+        width: calc((100% - 90px) / 4);
+    }
 }

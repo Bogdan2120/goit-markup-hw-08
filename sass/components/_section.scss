@@ -1,12 +1,19 @@
-// .section {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-// }
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
-// .section_no-padding {
-//     padding-top: 0;
-// }
+.section_bg {
+    background-color: #f5f4fa;
+}
 
-// .section_bg {
-//     background-color: #f5f4fa;
-// }
+@media screen and (min-width: 1200px) {
+    .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .section_no-padding {
+        padding-top: 0;
+    }
+}

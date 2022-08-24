@@ -1,3 +1,9 @@
+@media screen and (max-width: 1199px) {
+    .section-works {
+        display: none;
+    }
+}
+
 .works {
     display: flex;
     column-gap: 30px;
