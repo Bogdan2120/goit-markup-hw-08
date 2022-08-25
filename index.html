@@ -191,16 +191,36 @@
         <h2 class="title">Чим ми займаємося </h2>
         <ul class="works list">
           <li class="works__item">
-            <img src="./images/img1sq.jpg" alt="Печатає на клавіатурі" width="370" height="294" class="works__img" />
+            <picture>
+              <source srcset="./images/works/work_1Desktop.webp 1x, ./images/works/work_1Desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp">
+              <source srcset="./images/works/work_1Desktop.jpg 1x, ./images/works/work_1Desktop@2x.jpg 2x"
+                media="(min-width: 1200px)">
+              <img src="./images/works/work_1Desktop.jpg" alt="Печатає на клавіатурі" width="370" height="294"
+                class="works__img" />
+            </picture>
             <p class="works__img-caption">Десктопні додатки</p>
           </li>
           <li class="works__item">
-            <img src="./images/img2sq.jpg" alt="Телефон в лівій руці, права рука на клавіатурі" width="370" height="294"
-              class="work-img" />
+            <picture>
+              <source srcset="./images/works/work_2Desktop.webp 1x, ./images/works/work_2Desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp">
+              <source srcset="./images/works/work_2Desktop.jpg 1x, ./images/works/work_2Desktop@2x.jpg 2x"
+                media="(min-width: 1200px)">
+              <img src="./images/works/work_2Desktop.jpg" alt="Телефон в лівій руці, права рука на клавіатурі"
+                width="370" height="294" class="work-img" />
+            </picture>
             <p class="works__img-caption">Мобільні додатки</p>
           </li>
           <li class="works__item">
-            <img src="./images/img3sq.jpg" alt="Планшет в руці" width="370" height="294" class="works__img" />
+            <picture>
+              <source srcset="./images/works/work_3Desktop.webp 1x, ./images/works/work_3Desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp">
+              <source srcset="./images/works/work_3Desktop.jpg 1x, ./images/works/work_3Desktop@2x.jpg 2x"
+                media="(min-width: 1200px)">
+              <img src="./images/works/work_3Desktop.jpg" alt="Планшет в руці" width="370" height="294"
+                class="works__img" />
+            </picture>
             <p class="works__img-caption">Дизайнерські рішення</p>
           </li>
         </ul>
@@ -214,7 +234,24 @@
         <h2 class="title">Наша команда</h2>
         <ul class="command list">
           <li class="command__item">
-            <img src="./images/igorsq.jpg" alt="Ігор Дем'яненко" class="command__img" width="270" height="260" />
+            <picture>
+              <source srcset="./images/team/team_1Desktop.webp 1x, ./images/team/team_1Desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="./images/team/team_1Desktop.jpg 1x, ./images/team/team_1Desktop@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="./images/team/team_1Tablet.jpg 1x, ./images/team/team_1Tablet@2x.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="./images/team/team_1Tablet.jpg 1x, ./images/team/team_1Tablet@2x.jpg 2x"
+                media="(min-width: 768px)" />
+
+              <source srcset="./images/team/team_1Mobail.webp 1x, ./images/team/team_1Mobail@2x.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/team_1Mobail.jpg 1x, ./images/team/team_1Mobail@2x.jpg 2x"
+                media="(max-width: 767px)" />
+              <img src="./images/team/team_1Desktop.jpg" alt="Ігор Дем'яненко" class="command__img" width="270"
+                height="260" />
+            </picture>
             <h3 class="command__name">Ігор Дем'яненко</h3>
             <p class="command__text">Product Designer</p>
             <div class="social-block">
@@ -251,7 +288,25 @@
             </div>
           </li>
           <li class="command__item">
-            <img src="./images/olyasq.jpg" alt="Ольга Рєпіна" class="command__img" width="270" height="260" />
+            <picture>
+              <source srcset="./images/team/team_2Desktop.webp 1x, ./images/team/team_2Desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="./images/team/team_2Desktop.jpg 1x, ./images/team/team_2Desktop@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="./images/team/team_2Tablet.jpg 1x, ./images/team/team_2Tablet@2x.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="./images/team/team_2Tablet.jpg 1x, ./images/team/team_2Tablet@2x.jpg 2x"
+                media="(min-width: 768px)" />
+
+              <source srcset="./images/team/team_2Mobail.webp 1x, ./images/team/team_2Mobail@2x.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/team_2Mobail.jpg 1x, ./images/team/team_2Mobail@2x.jpg 2x"
+                media="(max-width: 767px)" />
+
+              <img src="./images/team/team_2Desktop.jpg" alt="Ольга Рєпіна" class="command__img" width="270"
+                height="260" />
+            </picture>
             <h3 class="command__name">Ольга Рєпіна</h3>
             <p class="command__text">Frontend Developer</p>
             <div class="social-block">
@@ -288,7 +343,25 @@
             </div>
           </li>
           <li class="command__item">
-            <img src="./images/nikolaysq.jpg" alt="Микола Тарасов" class="command__img" width="270" height="260" />
+            <picture>
+              <source srcset="./images/team/team_3Desktop.webp 1x, ./images/team/team_3Desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="./images/team/team_3Desktop.jpg 1x, ./images/team/team_3Desktop@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="./images/team/team_3Tablet.jpg 1x, ./images/team/team_3Tablet@2x.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="./images/team/team_3Tablet.jpg 1x, ./images/team/team_3Tablet@2x.jpg 2x"
+                media="(min-width: 768px)" />
+
+              <source srcset="./images/team/team_3Mobail.webp 1x, ./images/team/team_3Mobail@2x.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/team_3Mobail.jpg 1x, ./images/team/team_3Mobail@2x.jpg 2x"
+                media="(max-width: 767px)" />
+
+              <img src="./images/team/team_3Desktop.jpg" alt="Микола Тарасов" class="command__img" width="270"
+                height="260" />
+            </picture>
             <h3 class="command__name">Микола Тарасов</h3>
             <p class="command__text">Marketing</p>
             <div class="social-block">
@@ -325,7 +398,25 @@
             </div>
           </li>
           <li class="command__item">
-            <img src="./images/mihailsq.jpg" alt="Михайло Єрмаков" class="command__img" width="270" height="260" />
+            <picture>
+              <source srcset="./images/team/team_4Desktop.webp 1x, ./images/team/team_4Desktop@2x.webp 2x"
+                media="(min-width: 1200px)" type="image/webp" />
+              <source srcset="./images/team/team_4Desktop.jpg 1x, ./images/team/team_4Desktop@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="./images/team/team_4Tablet.jpg 1x, ./images/team/team_4Tablet@2x.webp 2x"
+                media="(min-width: 768px)" type="image/webp" />
+              <source srcset="./images/team/team_4Tablet.jpg 1x, ./images/team/team_4Tablet@2x.jpg 2x"
+                media="(min-width: 768px)" />
+
+              <source srcset="./images/team/team_4Mobail.webp 1x, ./images/team/team_4Mobail@2x.webp 2x"
+                media="(max-width: 767px)" type="image/webp" />
+              <source srcset="./images/team/team_4Mobail.jpg 1x, ./images/team/team_4Mobail@2x.jpg 2x"
+                media="(max-width: 767px)" />
+
+              <img src="./images/team/team_4Desktop.jpg" alt="Михайло Єрмаков" class="command__img" width="270"
+                height="260" />
+            </picture>
             <h3 class="command__name">Михайло Єрмаков</h3>
             <p class="command__text">UI Designer</p>
             <div class="social-block">
@@ -499,8 +590,7 @@
   <!--=============== /FOOTER ===============-->
 
   <!--=============== MODAL WINDOW ===============-->
-  <!-- is-hidden -->
-  <div class="backdrop " data-modal>
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal-window">
       <button type="button" class="modal-window__close" data-modal-close>
         <svg width="11" height="11">
@@ -558,9 +648,8 @@
     </div>
   </div>
   <!--=============== /MODAL WINDOW ===============-->
-  <script src="./js/menu.js"></script>
+  <script src="./js/mobile-menu.js"></script>
   <script src="./js/modal.js"></script>
-
 </body>
 
 </html>
