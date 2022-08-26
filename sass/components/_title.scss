@@ -1,7 +1,7 @@
 .title {
     margin-block-start: 0;
     margin-block-end: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     @include font(700, 28px, 33px, 0.03em);
     text-align: center;
@@ -9,8 +9,12 @@
 }
 
 
+
+
 @media screen and (min-width: 1200px) {
     .title {
+        margin-bottom: 50px;
+
         @include font(700, 36px, 42px, 0.03em);
     }
 }
