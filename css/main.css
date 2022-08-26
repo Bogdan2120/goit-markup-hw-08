@@ -826,6 +826,14 @@ body {
   .portfolio__item {
     width: calc((100% - 30px) / 2);
   }
+  .portfolio__link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .porfolio___text-body {
+    flex-grow: 1;
+  }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__item {
